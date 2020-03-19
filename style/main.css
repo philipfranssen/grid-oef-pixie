@@ -3,43 +3,91 @@ html { height: 100%;}
 * { box-sizing: border-box;}
 
 body { width: 100%;
-    color:rgb(153, 149, 149);
+    color: black;
     margin: 0;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
 
-/* .nav { display: none;} */
+.u-sm-Header { display: flex;
+                justify-content: space-between;
+                padding: 1rem;
+                margin-bottom: 3rem;
+                border-bottom: solid 0.1rem lightgrey;}
 
+.lg-nav { display: none;}
 
-
-.hamburger {
-    width: 100%;
-    height: 0.2rem;
-    background-color: white;
-    border-radius: 0.2rem;
-    position: relative;
-
+.sm-nav { width: 3rem;
+        height: 3rem;
+        background-color: cornflowerblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10%;
 }
 
-.hamburger::before {
-    content: '';
+.bar1,
+.bar2,
+.bar3 { background-color: white;
+        height: 0.2rem;
+        width: 30%;
+        margin-bottom: 0.2rem;
+        border-radius: 30%;
+}
+
+.pixie-logo { align-self: center;
+              height: 1.5rem;}
+
+.u-sm-subscribe { background-color: cornflowerblue;
+            color: white;
+            padding: 3rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 3rem;
+}
+
+.sm-stripe { background-color: white;
+        height: 0.2rem;
+        width: 1.5rem;
+}
+
+.email { background-color: cornflowerblue;
+        color: white;
+        border: solid 0.05rem white;
+        border-radius: 0.1rem;
+        width: 400px;
+        padding: 1rem 1rem;
+        margin-bottom: 1rem;}
+
+::placeholder { color: white;}
+
+.button { text-decoration: none;
+    background-color: white;
+    color: cornflowerblue;
+    margin-bottom: 3rem;
     display: block;
-    width: 100%;
-    height: 0.2rem;
-    background-color: white;
-    bottom: 0.3rem;
-    position: absolute;
-    border-radius: 0.2rem;
+    width: 400px;
+    padding: 1rem 0rem;
 }
 
-.hamburger::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 0.2rem;
-    background-color: white;
-    top: 0.3rem;
-    position: absolute;
-    border-radius: 0.2rem;
-}
+
+.nav-footer a { text-decoration: none;
+                color: lightgray;
+                font-size: 0.7rem;
+                padding: 0rem 1rem;
+            } 
+
+.nav-footer { display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                align-items: center;} /* !!!!!!!!!!!!!!*/
+
+.img-footer { height: 2rem;}
+
+.u-sm-Footer{ margin-bottom: 3rem;}
+.footer { display: flex;
+          flex-direction: column;
+          align-items: center;}

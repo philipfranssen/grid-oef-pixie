@@ -1,3 +1,45 @@
-body {
+html { height: 100%;}
+
+* { box-sizing: border-box;}
+
+body { width: 100%;
+    color:rgb(153, 149, 149);
+    margin: 0;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
+}
+
+/* .nav { display: none;} */
+
+
+
+.hamburger {
+    width: 100%;
+    height: 0.2rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    position: relative;
+
+}
+
+.hamburger::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0.2rem;
+    background-color: white;
+    bottom: 0.3rem;
+    position: absolute;
+    border-radius: 0.2rem;
+}
+
+.hamburger::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0.2rem;
+    background-color: white;
+    top: 0.3rem;
+    position: absolute;
+    border-radius: 0.2rem;
 }

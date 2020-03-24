@@ -2,6 +2,9 @@ html { height: 100%;}
 
 * { box-sizing: border-box;}
 
+/* Het is niet de gewoonte om de eerste regel op dezelfde lijn te zetten als de selector */
+/* Op een block element (zoals body) een width zetten van 100% maakt geen verschil, dit is default */
+
 body { width: 100%;
     color: gray;
     margin: 0;
@@ -35,6 +38,7 @@ body { width: 100%;
         height: 0.2rem;
         width: 30%;
         margin-bottom: 0.2rem;
+        /*border-radius kan je beter gewoon 0.1rem maken in dit geval*/
         border-radius: 30%;
 }
 
@@ -83,14 +87,15 @@ body { width: 100%;
                 color: lightgray;
                 font-size: 0.7rem;
                 padding: 0rem 1rem;
-            } 
+            }
 
+/* enkel de laatste justify-content werkt in de geval, probeer je code clean te houden */
 .nav-footer { display: flex;
                 justify-content: space-evenly;
                 flex-wrap: wrap;
                 justify-content: center;
                 line-height: 1.5rem;
-                margin: 2rem 0rem;} 
+                margin: 2rem 0rem;}
 
 .img-footer { height: 2rem;}
 
@@ -117,14 +122,14 @@ body { width: 100%;
                 display: grid;
                 grid-template-rows: 100%;
                 grid-template-columns: 2fr 1fr;
-                grid-template-areas: 
+                grid-template-areas:
                 'email email button';
                 grid-gap: 1.5rem;
         }
         .u-md-email { grid-area: email;
         }
 
-        .u-md-button { grid-area: button;              
+        .u-md-button { grid-area: button;
         }
         .button { padding: 1rem 1rem;
                 line-height: 1rem;}
@@ -134,7 +139,9 @@ body { width: 100%;
 
         .u-md-blue { background-color: cornflowerblue;
                     margin-bottom: 3rem;}
-            
+/* Vergeet je media queries niet af te sluiten met } */
+}
+
 @media screen and (min-width: 901px) {
             .sm-nav { display: none;}
             .lg-nav a { text-decoration: none;
@@ -142,7 +149,7 @@ body { width: 100%;
                         color: black;
                         font-weight: bold;
                         font-size: 0.9rem;}
-        
+
             .lg-nav { display: flex;
                      justify-content: center;
                      border-top: solid 0.1rem lightgrey;}
@@ -153,5 +160,6 @@ body { width: 100%;
 
             .u-md-Header { display: flex;
                         flex-direction: column;}
-        
+
             a:hover { color: cornflowerblue;}
+}

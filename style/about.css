@@ -1,43 +1,61 @@
 
-.container { width: 90%;
+.container { 
+            width: 90%;
             margin: auto;}
 
-.sm-stripe-blue { background-color: cornflowerblue;
-    height: 0.2rem;
-    width: 1.5rem;
+.img { 
+        width: 100%;}
+h4 { 
+        color: black;}
+
+.p-sm { 
+        font-size: 0.9rem;}
+
+.text-blue { 
+        color: cornflowerblue;}
+
+.div-p { 
+        border-bottom: solid 0.1rem lightgrey;
+        margin-bottom: 1rem;
 }
-.img { width: 100%;}
-h4 { color: black;}
+.div-text { 
+        margin-bottom: 3rem;}
 
-.p-sm { font-size: 0.9rem;}
+.find-us { 
+        display: flex;}
 
-.text-blue { color: cornflowerblue;}
-.div-p { border-bottom: solid 0.1rem lightgrey;
-            margin-bottom: 1rem;
-}
-.div-text { margin-bottom: 3rem;}
-.find-us { display: flex;}
-
-.div-p p { margin-top: 2rem;}
+.div-p p { 
+        margin-top: 2rem;}
 
 @media screen and (min-width: 451px) {
-    .u-md-innercontainer { display: flex;
-                      justify-content: space-between;
+    .u-md-innercontainer { 
+                    display: flex;
+                    justify-content: space-between;
     }
     .div-img,
-    .div-text { width: calc((100% / 2) - 1rem);}
-    .container { width: 80%;}
+    .div-text { 
+                width: calc((100% / 2) - 1rem);}
+    .container {   
+                width: 80%;}
 }
 
 @media screen and (min-width: 901px) {}
 
 @media screen and (min-width: 1800px) {
-    .p-sm.p-lg { font-size: 1.2rem;
+    .p-sm.p-lg { 
+            font-size: 1.2rem;
             margin: 1rem 0rem 2rem 0rem;}
-    h4 { font-size: 1.5rem;
+
+    h4 { 
+        font-size: 1.5rem;
         margin-top: 0rem;}
-    .img { height: 38rem;}
-    .container { margin-bottom: 3rem;}
-    .u-sm-subscribe { width: 720px;
+
+    .img { 
+        height: 38rem;}
+
+    .container { 
+        margin-bottom: 3rem;}
+    .u-sm-subscribe { 
+        width: 720px;
         margin: auto;}
 }

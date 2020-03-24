@@ -1,0 +1,25 @@
+.button-order { 
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: white;
+    margin-bottom: 3rem;
+    display: block;
+    width: 100%;
+    padding: 1rem 0rem;
+    border-radius: 0.3rem;
+}
+
+.u-sm-Header { 
+         border: none;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+.banner { 
+    background-image: center url(images/banner-bg.jpg);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}

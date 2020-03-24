@@ -3,10 +3,8 @@ html {
 
 * { box-sizing: border-box;}
 
-/* Het is niet de gewoonte om de eerste regel op dezelfde lijn te zetten als de selector */
-/* Op een block element (zoals body) een width zetten van 100% maakt geen verschil, dit is default */
 
-body { width: 100%;
+body { 
     color: gray;
     margin: 0;
     font-size: 16px;
@@ -47,8 +45,7 @@ body { width: 100%;
         height: 0.2rem;
         width: 30%;
         margin-bottom: 0.2rem;
-        /*border-radius kan je beter gewoon 0.1rem maken in dit geval*/
-        border-radius: 30%;
+        border-radius: 0.1rem;
 }
 
 .pixie-logo { 
@@ -106,9 +103,7 @@ body { width: 100%;
                 padding: 0rem 1rem;
             }
 
-/* enkel de laatste justify-content werkt in de geval, probeer je code clean te houden */
 .nav-footer { display: flex;
-                justify-content: space-evenly;
                 flex-wrap: wrap;
                 justify-content: center;
                 line-height: 1.5rem;
@@ -166,7 +161,6 @@ body { width: 100%;
 
         .u-md-blue { background-color: cornflowerblue;
                     margin-bottom: 3rem;}
-/* Vergeet je media queries niet af te sluiten met } */
 }
 
 @media screen and (min-width: 901px) {

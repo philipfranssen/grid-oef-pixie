@@ -121,6 +121,19 @@ body {
         align-items: center;
         margin: auto;}
 
+.text-blue { 
+        color: cornflowerblue;}
+
+.p-sm { 
+        font-size: 0.9rem;}
+
+h3, h4 { 
+        color: black;}
+
+.h3-subscribe-footer {
+        color: white;
+}
+
 
 @media screen and (min-width: 451px) {
         .lg-nav { 

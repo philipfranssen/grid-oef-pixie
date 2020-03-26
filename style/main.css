@@ -201,3 +201,10 @@ h3, h4 {
 
             a:hover { color: cornflowerblue;}
 }
+
+@media screen and (min-width: 1800px) {
+
+        .u-sm-subscribe { 
+                width: 720px;
+                margin: auto;}
+}

@@ -1,11 +1,11 @@
-.button-order { 
+.button-order {
     background-color: cornflowerblue;
     color: white;
     padding: 1rem;
     width: 9rem;
 }
 
-.u-sm-Header { 
+.u-sm-Header {
          border-bottom: none;
          margin-bottom: 0rem;
 }
@@ -15,7 +15,7 @@
 }
 
 .banner {
-    background-image: url(banner-bg.jpg);
+    background-image: url(../images/banner-bg.jpg);
     padding: 4.5rem 1.5rem;
     /* background-size: 100% 100%; */
     /* height: 50%; */
@@ -49,7 +49,7 @@
     display: none;
 }
 
-.jeans-pic { 
+.jeans-pic {
     width: 100%;}
 
 .description,
@@ -81,7 +81,7 @@
 }
 
 @media screen and (min-width: 451px) {
-    .u-md-Header { 
+    .u-md-Header {
         border-bottom: none;
         margin-bottom: 0rem;
 }
@@ -94,10 +94,10 @@
         display: none;
     }
 
-    .featured-items-div {   
+    .featured-items-div {
         width: 80%;
     }
-    
+
     .flex-md-lg {
         display: flex;
         justify-content: space-between;
@@ -112,7 +112,7 @@
     .u-sm-carousel {
         display: none
     }
-    
+
     .u-md-carousel {
         display: block;
         margin-left: auto;
@@ -120,7 +120,7 @@
     }
 
 
-    
+
     .banner-md {
         width: 80%;
         margin: auto;

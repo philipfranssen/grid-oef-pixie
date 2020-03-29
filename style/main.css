@@ -12,12 +12,18 @@ body {
     line-height: 1.5rem;
 }
 
+.u-md-Header {
+        border-bottom: solid 0.1rem lightgrey;
+        margin-bottom: 3rem;
+}
 .u-sm-Header { 
                 display: flex;
                 justify-content: space-between;
                 padding: 1rem;
-                margin-bottom: 3rem;
-                border-bottom: solid 0.1rem lightgrey;
+                /* // margin-bottom: 3rem; // */
+                margin: 0rem auto;
+                /* border-bottom: solid 0.1rem lightgrey; */
+                width: 90%;
         }
 
 .sm-stripe-blue { 
@@ -135,6 +141,9 @@ h3, h4 {
 }
 
 
+
+
+
 @media screen and (min-width: 451px) {
         .lg-nav { 
                 display: none;}
@@ -145,6 +154,7 @@ h3, h4 {
                 border-bottom: none;
                 display: flex;
                 justify-content: space-between;
+                margin-bottom: 0rem;
         }
         .u-md-Header { 
                 margin-bottom: 3rem;

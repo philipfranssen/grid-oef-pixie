@@ -16,12 +16,13 @@
 
 .banner {
     background-image: url(../images/banner-bg.jpg);
-    padding: 4.5rem 1.5rem;
+    padding: 4.5rem 0rem;
     /* background-size: 100% 100%; */
     /* height: 50%; */
     background-position: center;
     margin-bottom: 3rem;
     height: 34rem;
+    background-repeat: no-repeat;
 }
 
 .ecommerce {
@@ -78,7 +79,8 @@
 }
 
 .banner-md {
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 .u-lg-carousel {
@@ -123,10 +125,11 @@
         margin-right: auto;
     }
 
-    .banner-md {
-        width: 100%;
-        margin: auto;
+     .banner-md {
+        width: 80%;
+        /* margin: 0rem 1.6rem; */
     }
+
 
 }
 
@@ -137,7 +140,7 @@
     }
 
     .featured-items {
-        width: calc((100% / 4) - 0.5rem);
+        width: calc((100% / 4) - 0.7rem);
     }
 
     .featured-items-div {   
@@ -157,6 +160,11 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .banner {
+        background-size: cover;
+        height: 38rem;
     }
 
 }

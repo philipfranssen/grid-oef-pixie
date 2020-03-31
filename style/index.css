@@ -11,6 +11,7 @@
 }
 .container {
     height: 100%;
+    margin: auto;
 
 }
 
@@ -34,7 +35,7 @@
 }
 
 .featured-items-div {
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-bottom: 2rem;
 }
@@ -101,10 +102,6 @@
         display: none;
     }
 
-    .featured-items-div {
-        width: 80%;
-    }
-
     .flex-md-lg {
         display: flex;
         justify-content: space-between;
@@ -143,15 +140,6 @@
         width: calc((100% / 4) - 0.7rem);
     }
 
-    .featured-items-div {   
-        width: 60%;
-    }
-
-    .banner-md {
-        width: 60%;
-        margin: auto;
-    }
-
     .u-md-carousel {
         display: none
     }
@@ -166,5 +154,8 @@
         background-size: cover;
         height: 38rem;
     }
+
+}
+
 
 }

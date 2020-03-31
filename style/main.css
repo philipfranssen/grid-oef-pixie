@@ -23,7 +23,7 @@ body {
                 /* // margin-bottom: 3rem; // */
                 margin: 0rem auto;
                 /* border-bottom: solid 0.1rem lightgrey; */
-                width: 90%;
+                width: 80%;
         }
 
 .sm-stripe-blue { 
@@ -149,7 +149,6 @@ h3, h4 {
                 display: none;}
 
         .u-sm-Header { 
-                width: 80%;
                 margin: auto;
                 border-bottom: none;
                 display: flex;
@@ -216,5 +215,10 @@ h3, h4 {
 
         .u-sm-subscribe { 
                 width: 720px;
-                margin: auto;}
+                margin: auto;
+        }
+
+        .container { 
+                width: 60%;        
+        }
 }

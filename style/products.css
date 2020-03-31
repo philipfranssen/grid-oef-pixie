@@ -34,7 +34,7 @@
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-bottom: 2rem;
 }
@@ -61,9 +61,6 @@
 
 h4 { margin: 0rem;}
 
-.container {
-    width: 80%;
-}
 
 .featured-items-div {
     display: grid;
@@ -77,6 +74,5 @@ h4 { margin: 0rem;}
     grid-column-gap: 1rem;
 }
     
-
-
 }
+

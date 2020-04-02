@@ -52,6 +52,11 @@
 .div-text { 
     margin-bottom: 3rem;}
 
+.quantity {
+    height: 2.7rem;
+    margin-right: 0.5rem;
+}
+
 .find-us { 
     display: flex;
     align-items: center;
@@ -62,10 +67,12 @@
         background-color: cornflowerblue;
         color: white;
         padding: 0.6rem;
-        width: 9rem;
+        width: 7.5rem;
         margin: 0rem;
-        width: 100%;
+        /* width: 100%; */
     }
+
+    
 
 .category {
     border-top: solid 0.1rem lightgrey;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixie - About</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/contact.css">
 </head>
@@ -41,13 +42,21 @@
             </div>
             <div class="div-text">
                     <div class="div-p">
-                        <input class="contact" name="name" type="text" placeholder="Your name..." required>
-                        <input class="contact" name="email" type="email" placeholder="Your email... " required>
-                        <input class="contact" name="subject" type="text" placeholder="Subject..." required>
-                        <input class="contact" name="message" type="text" placeholder="Your message..." required>
+                        <div class="div-contact-flex">
+                            <input class="contact contact-sm contact-flex" name="name" type="text" placeholder="Your name..." required>
+                            <input class="contact contact-sm contact-flex" name="email" type="email" placeholder="Your email... " required>
+                        </div>
+                        <input class="contact contact-sm" name="subject" type="text" placeholder="Subject..." required>
+                        <input class="contact contact-lg" name="message" type="text" placeholder="Your message..." required>
+                        <div class="u-md-button"><a href="#" class="button button-order">SEND MESSAGE</a>
+                        </div>
                     </div>
                     <div class="find-us">
-                        <p class="p-sm p-lg"> You can also keep in touch on: </p> <img src="images/find us.png" alt="find us">
+                        <p class="p-sm">You can also keep in touch on:</p>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        
                     </div>
             </div>
         </div>
@@ -80,7 +89,12 @@
                 <a href="contact.html">CONTACT US</a>
 
             </div>
-            <img class="img-footer" src="images/footer.png" alt="">
+            <p>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-rss"></a>
+            </p>
         </div>
     </footer>
 

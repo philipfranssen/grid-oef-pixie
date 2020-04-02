@@ -19,7 +19,7 @@ body {
 .u-sm-Header { 
                 display: flex;
                 justify-content: space-between;
-                padding: 1rem;
+                padding: 1rem 0rem;
                 /* // margin-bottom: 3rem; // */
                 margin: 0rem auto;
                 /* border-bottom: solid 0.1rem lightgrey; */
@@ -140,8 +140,35 @@ h3, h4 {
         color: white;
 }
 
+.fa {
+        height: 1.5rem;
+        width: 1.5rem;
+        font-size: 0.5rem;
+        background-color: lightgray;
+        color: white;
+        border-radius: 50%;
+        padding: 0.5rem;
+        text-decoration: none;
+        text-align: center;
+        margin: 0rem 0.5rem;
+}
 
+.find {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+}
 
+.find-us { 
+        display: flex;}
+
+.find-us .fa {
+        margin: 0rem 0.2rem 0rem 0rem;
+}
+
+.find-us p {
+        margin: 0rem 0.5rem 0rem 0rem;
+}
 
 
 @media screen and (min-width: 451px) {
